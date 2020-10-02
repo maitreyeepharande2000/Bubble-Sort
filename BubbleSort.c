@@ -5,6 +5,13 @@ void swap(int xp, int yp)
     xp = yp; 
     yp = temp; 
 } 
+void printArray(int arr[], int size) 
+{ 
+    int i; 
+    for (i=0; i < size; i++) 
+        printf("%d ", arr[i]); 
+    printf("\n"); 
+} 
 int main() 
 { 
     int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
